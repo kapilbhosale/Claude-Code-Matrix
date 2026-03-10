@@ -41,7 +41,7 @@ gem install claude-matrix
 **From source:**
 
 ```bash
-git clone https://github.com/kapilbhosale/claude-matrix
+git clone https://github.com/kapilbhosale/Claude-Code-Matrix
 cd claude-matrix
 bundle install
 bundle exec bin/claude-matrix
@@ -170,7 +170,7 @@ GitHub Actions picks up the tag and publishes to RubyGems automatically.
 3. Make your changes
 4. Open a pull request
 
-Bug reports and feature requests are welcome via [GitHub Issues](https://github.com/kapilbhosale/claude-matrix/issues).
+Bug reports and feature requests are welcome via [GitHub Issues](https://github.com/kapilbhosale/Claude-Code-Matrix/issues).
 
 ---
 

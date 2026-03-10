@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.description = "Transforms your local ~/.claude/ session data into a beautiful " \
                      "btop-style terminal dashboard — streaks, tool usage, token costs, " \
                      "work modes, and activity heatmaps. No cloud, no API calls."
-  spec.homepage    = "https://github.com/kapilbhosale/claude-matrix"
+  spec.homepage    = "https://github.com/kapilbhosale/Claude-Code-Matrix"
   spec.license     = "MIT"
 
   spec.required_ruby_version = ">= 3.0"
