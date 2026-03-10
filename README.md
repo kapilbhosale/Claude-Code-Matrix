@@ -1,11 +1,9 @@
 # Claude Matrix
 
-A privacy-first, terminal analytics dashboard for [Claude Code](https://claude.ai/code). It reads your local Claude Code session data — sessions, tools, tokens, cost, streaks — and renders a live `btop`-style TUI right in your terminal. No cloud, no API calls, no configuration. Just run it and see your coding patterns.
+A privacy-first, terminal analytics dashboard for [Claude Code](https://claude.ai/code). It reads your local Claude Code session data (reads ~/.claude/ directly, never touches the network) — sessions, tools, tokens, cost, streaks — and renders a live TUI right in your terminal. No cloud, no API calls, no configuration. Just run it and see your usage, coding patterns.
 
 
-> ```md
-> ![Claude Matrix Dashboard](./docs/screenshot-1.png)
-> ```
+![Claude Matrix Dashboard](./docs/screenshot-1.png)
 
 ---
 
@@ -82,31 +80,10 @@ claude-matrix dashboard
 
 ### Quick stats (no TUI)
 
-```bash
-claude-matrix stats             # all-time stats
-claude-matrix stats --today     # today only
-claude-matrix stats --week      # this week
-claude-matrix stats --month     # this month
-```
-
 ### Check data sources
 
 ```bash
 claude-matrix doctor
-```
-
-```
-  ✓  ~/.claude/ exists
-  ✓  ~/.claude/projects/ exists
-  ✓  ~/.claude/history.jsonl exists
-  ✗  stats-cache.json exists       ← optional, not required
-  ✓  Session files found (83)
-```
-
-### Version
-
-```bash
-claude-matrix version
 ```
 
 ---
@@ -171,14 +148,7 @@ claude-matrix/
 
 ---
 
-## Adding a screenshot
 
-1. Launch the dashboard: `bundle exec bin/claude-matrix`
-2. Take a screenshot of your terminal
-3. Save it as `docs/screenshot.png`
-4. Uncomment the image line at the top of this README
-
----
 
 ## Contributing
 
