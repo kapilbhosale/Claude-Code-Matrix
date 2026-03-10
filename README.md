@@ -155,12 +155,6 @@ git tag v1.x.x
 git push && git push --tags
 ```
 
-GitHub Actions picks up the tag and publishes to RubyGems automatically.
-
-> **One-time setup:** add your RubyGems API key as a repository secret named `RUBYGEMS_API_KEY`
-> (GitHub repo → Settings → Secrets and variables → Actions → New repository secret).
-> Get your key from [rubygems.org/profile/edit](https://rubygems.org/profile/edit).
-
 ---
 
 ## Contributing
